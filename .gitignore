@@ -1,0 +1,35 @@
+# Entornos y binarios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entorno virtual local
+venv/
+env/
+ENV/
+.venv/
+
+# Configuración y secretos de Streamlit
+.streamlit/secrets.toml
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Reportes o artefactos temporales de extracción
+*.tmp
+extracted_texts.txt
+*.pdf.txt
